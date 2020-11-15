@@ -21,8 +21,12 @@ valores */
 /* selector de id */
 /* #portafolio */
 
-body{
+/* body{
   font-family: 'Source Sans Pro', sans-serif;
+} */
+
+body{
+  font-family: 'Roboto', sans-serif;
 }
 
 
