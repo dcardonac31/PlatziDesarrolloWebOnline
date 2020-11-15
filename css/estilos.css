@@ -48,3 +48,15 @@ h1{
   /* text-transform: uppercase;
   text-decoration: dashed; */
 }
+
+.hero{
+  height: 300px;
+}
+
+.work-details{
+  width: 500px;
+}
+
+.work-imageContainer{
+  width: 500px;
+}
