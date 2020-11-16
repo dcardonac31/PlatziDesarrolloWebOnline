@@ -35,6 +35,7 @@ celeste = #026fff
 
 body{
   font-family: 'Roboto', sans-serif;
+  margin: 0;
 }
 
 
@@ -73,6 +74,10 @@ h1 strong{
   background-position-x: right ;
 }
 
+.workexperience{
+  background: #fafafa;
+}
+
 .work{
   /* border-top: tamaño tipo estilo; */
   /* border-top: 10px solid red;
@@ -90,10 +95,13 @@ h1 strong{
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px; */
+  margin: 10px;
   margin-bottom: 15px;
   /* margin-right: 0%;
   margin-left: ;
   margin-top: ; */
+  padding: 20px;
+  background: white;
 }
 
 .work-details{
