@@ -71,6 +71,25 @@ h1 strong{
   background-position-x: right ;
 }
 
+.work{
+  /* border-top: tamaño tipo estilo; */
+  /* border-top: 10px solid red;
+  border-right: 10px solid green;
+  border-left: 10px solid orange;
+  border-bottom: 10px solid pink; */
+  /* border-color: red; */
+  /* color:blue; */
+  /* border-top-color:red ;
+  border-width: 15px;
+  border-style: solid; */
+  border: 1px solid gray;
+  border-radius: 10px;
+  /* border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px; */
+}
+
 .work-details{
   width: 500px;
 }
