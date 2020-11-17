@@ -225,3 +225,47 @@ figure{
 .footer a{
   color: white;
 }
+
+.knowledge-list{
+  display: flex;
+}
+
+.knowledge-list-title{
+  margin-left: 20px;
+}
+
+.knowledge-item{
+  margin: 10px;
+  width: 480px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #f4fbff;
+}
+
+.knowledge img{
+  width: 480px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.knowledge-detail{
+  margin: 20px 40px;
+  margin-top: -40px;
+  background-color: white;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+
+.knowledge-description{
+  text-align: left;
+}
+
+.knowledge-url{
+  color: #056fff;
+  border: 1px solid;
+  padding: 5px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
