@@ -66,6 +66,16 @@ h1 strong{
   color: #026fff;
 }
 
+h2{
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+
 ol,
 ul{
   margin: 0;
@@ -89,6 +99,7 @@ figure{
 
 .workexperience{
   background: #fafafa;
+  padding: 20px;
 }
 
 .work{
@@ -115,11 +126,40 @@ figure{
   margin-top: ; */
   padding: 20px;
   background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.work-title{
+  font-size: 30px;
+  margin: 10px;
+  /* margin-top: 0;
+  margin-bottom: 10px; */
 }
 
 .work-details{
   width: 500px;
 }
+
+.work-item,
+.work-date,
+.work-url,
+.work-description{
+  margin: 10px;
+}
+
+.work-description{
+  font-size: 20px;
+}
+
+.work strong{
+  font-family: 'Fjalla-One',sans-serif;
+}
+
+/* .work-date{
+  margin: 10px 0;
+} */
 
 .work-imageContainer{
   width: 500px;
